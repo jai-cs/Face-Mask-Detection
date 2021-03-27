@@ -1,0 +1,101 @@
+body {
+    background-color: #D7FCFC;
+    margin: 0 48px;
+}
+
+.navbar {
+    background-color: #0F0A78;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.nav-item button{
+    background-color: #0F0A78;
+    border: none;
+}
+
+/* The Extended Navbar on both sides for the special Effect */
+.ribbon {
+    position: absolute;
+    width: 48px;
+    height: 56px;
+    background-color: #0F0A78;
+    top: 0;
+}
+
+/* Left Ribbon position */
+.ribbon-left {
+    left: 0px;
+}
+
+/* Left-width of triangle shape */
+.ribbon-left:after {
+    border-width: 48px 0 0 48px;
+}
+
+/* Triangle Shape */
+.ribbon:after {
+    content: "";
+    position: absolute;
+    display: block;
+    border-style: solid;
+    bottom: -48px;
+    border-color: #000 transparent;
+}
+
+/* Right-width of triangle shape */
+.ribbon-right:after {
+    border-width: 48px 48px 0 0;
+}
+
+/* Right Ribbon position */
+.ribbon-right {
+    right: 0px;
+}
+
+.main-body {
+    height: 548px;
+}
+
+.main-body .carousel .carousel-item {
+    height: 400px;
+}
+
+.main-body .carousel button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.main-body .carousel .carousel-indicators button{
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 8px;
+    padding: 1.5px;
+    width: 24px;
+}
+
+.main-body .carousel .carousel-indicators .active{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.carousel-control-next, .carousel-control-prev {
+    opacity: 1;
+}
+
+.carousel-control-next:hover, .carousel-control-prev:hover {
+    opacity: 1;
+}
+
+.modal-content{
+    background-color: #D7FCFC;
+    height: 400px;
+}
+
+.modal-header{
+    border-bottom: none;
+}
+
+.navbar .nav-item .btn:focus {
+    box-shadow: none;
+}
