@@ -99,3 +99,60 @@ body {
 .navbar .nav-item .btn:focus {
     box-shadow: none;
 }
+
+.navbar-toggler{
+    justify-content: end;
+}
+
+.charts{
+    margin-top: 16px;
+}
+
+.charts .chart1{
+    padding-right: 8px;
+}
+
+.charts .chart2{
+    padding-left: 8px;
+}
+
+#chartContainer1, #chartContainer2{
+    height: 320px;
+}
+
+@media(max-width:996px){
+    body{
+        margin: 0 8px;
+    }
+    
+    .ribbon{
+        display: none;
+    }
+
+    .charts .chart2{
+        padding-top: 16px;
+    }
+
+    #chartContainer1, #chartContainer2{
+        height: 240px;
+    }
+
+}
+
+@media(max-width:768px){
+    #navbarSupportedContent{
+        justify-content: left;
+    }
+
+    .main-body .carousel .carousel-item {
+        height: 200px;
+    }
+
+    .nav-item .btn{
+        padding: 8px 0;
+    }
+
+    #chartContainer1, #chartContainer2{
+        height: 180px;
+    }
+}
